@@ -1,4 +1,4 @@
-FROM java
+FROM ubuntu
 MAINTAINER docker cjs<samdjk3680600@gmail.com>
 RUN apt-get update
 RUN apt-get install -y wget
